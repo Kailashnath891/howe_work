@@ -1,0 +1,83 @@
+1. Calculate the multiplication and sum of two numbers
+python
+a = 10
+b = 5
+sum_result = a + b
+product_result = a * b
+print("Sum:", sum_result)
+print("Product:", product_result)
+________________________________________
+2. Create a string made of the first, middle and last character of "Quality"
+Expected Output: Quality Thought
+python
+word = "Quality"
+first_char = word[0]
+middle_char = word[len(word)//2]
+last_char = word[-1]
+new_string = first_char + middle_char + last_char
+print(new_string)  # Output: 'Qit'
+Note: The expected output "Quality Thought" seems like full words, but if you want just first, middle, last chars combined, the code above does that.
+________________________________________
+3. Print: "One half of 100 is 50." Use a variable for 50
+python
+half = 50
+print("One half of 100 is", half)
+________________________________________
+4. Calculate and explain myTotal = 4 + 2 * 8 - 6
+python
+myTotal = 4 + 2 * 8 - 6
+print(myTotal)  # Output: 14
+Explanation: Multiplication has higher precedence, so 2 * 8 = 16. Then 4 + 16 - 6 = 14.
+________________________________________
+5. Floor division example: myTotal = 7 // 5
+python
+myTotal = 7 // 5
+print(myTotal)  # Output: 1
+Floor division gives the quotient without remainder.
+________________________________________
+6. Use parentheses in myTotal = (8 + 2) * 10
+python
+myTotal = (8 + 2) * 10
+print(myTotal)  # Output: 100
+Parentheses change order of operations.
+________________________________________
+7. Without parentheses: myTotal = 8 + 2 * 10
+python
+myTotal = 8 + 2 * 10
+print(myTotal)  # Output: 28
+Multiplication happens before addition.
+________________________________________
+8. Division with and without parentheses
+python
+myTotal = 8 + 10 / 2
+print(myTotal)  # Output: 13.0
+
+myTotal = (8 + 10) / 2
+print(myTotal)  # Output: 9.0
+________________________________________
+9. Using variables with arithmetic expressions
+python
+numberOne = 16
+numberTwo = 4
+
+answer = numberOne + numberTwo
+print(answer)  # Output: 20
+
+answer = numberOne + numberTwo + 20
+print(answer)  # Output: 40
+
+answer = 10 * numberOne + (numberTwo + 20)
+print(answer)  # Output: 180
+
+answer = numberOne + 20 + numberTwo - 10
+print(answer)  # Output: 30
+________________________________________
+10. Concatenate strings
+python
+FirstName = "Quality"
+SecondName = "Thought"
+print("Full Name is:", FirstName + " " + SecondName)
+Output:
+text
+Full Name is: Quality Thought
+
